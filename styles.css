@@ -1,0 +1,26 @@
+@media all and (max-width:500px) {
+    body h1{
+        color: red;
+    }
+}
+
+@media print{
+    body h1{
+        color: blue;
+    }
+}
+
+@media (any-hover: hover) {
+    a:hover {
+      background: yellow;
+    }
+  }
+
+
+div>ul>li>a:hover{
+    background-color: cyan;
+}
+
+.container{
+    max-width: 500px;
+}
